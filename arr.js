@@ -10,7 +10,8 @@ let arr = [
   
    const add=(item) =>{arr.push(item)
     return arr}
-  
+  //1 action from local
+
    const update=(name)=>{
     arr=arr.map(person=>{if(person.name==name){person.count++};return person})
     return arr}
